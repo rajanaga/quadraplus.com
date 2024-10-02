@@ -1,1 +1,0 @@
-# quadraplus.com
