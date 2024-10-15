@@ -39,7 +39,7 @@
 <body>
    <!-- Navbar -->
    <header>
-      <nav class="navbar navbar-expand-lg navbar-light w-100">
+      <nav class="navbar navbar-expand-lg w-100">
          <div class="container px-3">
             <a class="navbar-brand" href="index.html"><img width="100px" src="./assets/images/logo/logo.png" alt /></a>
             <button class="navbar-toggler offcanvas-nav-btn" type="button">
@@ -47,18 +47,19 @@
             </button>
             <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
                <div class="offcanvas-header">
-                  <a href="index.html" class="text-inverse"><img width="100px" src="./assets/images/logo/logo.png"
-                        alt /></a>
+                  <a href="index.html" class="text-inverse"><img width="100px" src="./assets/images/logo/logo.png" alt /></a>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                </div>
                <div class="offcanvas-body pt-0 align-items-center">
                   <ul class="navbar-nav mx-auto align-items-lg-center">
                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="index.html" role="button" aria-expanded="false">Home</a>
+                     </li>
+                     <li class="nav-item dropdown">
                         <a class="nav-link" href="about.html" role="button" aria-expanded="false">About Us</a>
                      </li>
                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="water-treatment.html" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                        <a class="nav-link dropdown-toggle" href="water-treatment.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                         <ul class="dropdown-menu">
                            <li><a class="dropdown-item" href="water-treatment.html">Water Treatment</a></li>
                            <li><a class="dropdown-item" href="water-transfer.html">Water Transfer</a></li>
@@ -71,9 +72,101 @@
                      </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link" href="reach-us.html" role="button" aria-expanded="false">Reach Us</a>
+                        <!-- <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="account-profile.html">Profile</a></li>
+                              <li><a class="dropdown-item" href="account-security.html">Security</a></li>
+                              <li><a class="dropdown-item" href="account-billing.html">Billing</a></li>
+                              <li><a class="dropdown-item" href="account-team.html">Team</a></li>
+                              <li><a class="dropdown-item" href="account-notification.html">Notifications</a></li>
+                              <li><a class="dropdown-item" href="account-app-integration.html">Integration</a></li>
+                              <li><a class="dropdown-item" href="account-device-session.html">Session</a></li>
+                              <li><a class="dropdown-item" href="account-social-links.html">Social</a></li>
+                              <li><a class="dropdown-item" href="account-appearance.html">Appearance</a></li>
+                              <li class="dropdown-submenu dropend">
+                                 <a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
+                                 <ul class="dropdown-menu">
+                                    <li class="dropdown-header">Simple</li>
+
+                                    <li>
+                                       <a class="dropdown-item" href="signin.html">Sign In</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="signup.html">Sign Up</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="forget-password.html">Forget Password</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="reset-password.html">Reset Password</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="otp-varification.html">OTP Varification</a>
+                                    </li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li class="dropdown-header">Side Cover</li>
+
+                                    <li>
+                                       <a class="dropdown-item" href="signin-v2.html">Sign In</a>
+                                    </li>
+
+                                    <li>
+                                       <a class="dropdown-item" href="signup-v2.html">Sign Up</a>
+                                    </li>
+
+                                    <li>
+                                       <a class="dropdown-item" href="forget-password-v2.html">Forget Password</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="reset-password-v2.html">Reset Password</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="otp-varification-v2.html">OTP Varification</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="dropdown-submenu dropend">
+                                 <a class="dropdown-item dropdown-toggle" href="#">Utility</a>
+                                 <ul class="dropdown-menu">
+                                    <li>
+                                       <a class="dropdown-item" href="404-error.html">404 Error</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="changelog.html">Changelog</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                           </ul> -->
                      </li>
+                     <!-- <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
+                           <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item mb-3 text-body" href="docs/index.html">
+                                 <div class="d-flex align-items-center">
+                                    <i class="bi bi-file-text fs-4 text-primary"></i>
+                                    <div class="ms-3 lh-1">
+                                       <h5 class="mb-1">Documentations</h5>
+                                       <p class="mb-0 fs-6">Browse the all documentation</p>
+                                    </div>
+                                 </div>
+                              </a>
+
+                              <a class="dropdown-item text-body" href="docs/changelog.html">
+                                 <div class="d-flex align-items-center">
+                                    <i class="bi bi-clipboard fs-4 text-primary"></i>
+                                    <div class="ms-3 lh-1">
+                                       <h5 class="mb-1">
+                                          Changelog
+                                          <span class="text-primary ms-1"></span>
+                                       </h5>
+                                       <p class="mb-0 fs-6">See what's new</p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </li> -->
                   </ul>
                   <div class="mt-3 mt-lg-0 d-flex align-items-center">
+                     <!-- <a href="signin.html" class="btn btn-light mx-2">Login</a> -->
                      <a href="reach-us.html" class="btn btn-primary">Reach Us</a>
                   </div>
                </div>
@@ -107,8 +200,8 @@
                            data-glightbox="title:Automatic Controller - Single; description:">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Automatic_Controller_Single.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Top Mount Automatic
-                                 Controllers</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Top Mount Automatic
+                                 Controllers</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Automatic Controller - Single</h4>
@@ -120,8 +213,8 @@
                            class="glightbox rounded-3" data-glightbox="title:Automatic Controller - Twin;">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Automatic_Controller_Twin.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Top Mount Automatic
-                                 Controllers</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Top Mount Automatic
+                                 Controllers</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Automatic Controller - Twin </h4>
@@ -134,9 +227,8 @@
                            data-glightbox="title:Automatic Controller - Single; description:">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Stainless_Steel_body_FRP_FIlter_Body.jpg);">
-
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Filters Bodies (Pressure
-                                 Vessels)</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Filters Bodies (Pressure
+                                 Vessels)</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Stainless Steel / FRP Filter Body</h4>
@@ -157,8 +249,8 @@
                            class="glightbox rounded-3" data-glightbox="title:Manual Operation System; description: ">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Manual_Operation_System.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Flexible Operation
-                                 Systems</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Flexible Operation
+                                 Systems</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Manual Operation System</h4>
@@ -183,8 +275,8 @@
                            data-glightbox="title:Side Mount – Skid Type Systems; description: ">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Side_Mount_Skid_Type_Systems.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Side Mount – Skid Type
-                                 Systems</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Side Mount – Skid Type
+                                 Systems</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Side Mount – Skid Type Systems</h4>
@@ -210,8 +302,8 @@
                            class="glightbox rounded-3" data-glightbox="title:Horizontal Pressure Vessel; description:">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Horizontal_Pressure_Vessel.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Horizontal Pressure
-                                 Vessel</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Horizontal Pressure
+                                 Vessel</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Horizontal Pressure Vessel</h4>
@@ -232,8 +324,8 @@
                            class="glightbox rounded-3" data-glightbox="title:Horizontal Pressure Vessel; description:">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Horizontal_Pressure_Vessel_Green.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Horizontal Pressure
-                                 Vessel</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Horizontal Pressure
+                                 Vessel</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Horizontal Pressure Vessel</h4>
@@ -253,7 +345,7 @@
                            class="glightbox rounded-3" data-glightbox="title:Silica Sand; description:">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Silica-Sand.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Filtration Media</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Silica Sand</h4>
@@ -275,7 +367,7 @@
                            class="glightbox rounded-3" data-glightbox="title:Glass Media; description:">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Glass_Media.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Filtration Media</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Glass Media</h4>
@@ -295,7 +387,7 @@
                            class="glightbox rounded-3" data-glightbox="title:Anthracite; description:">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Anthracite.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Filtration Media</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Anthracite</h4>
@@ -313,7 +405,7 @@
                            class="glightbox rounded-3" data-glightbox="title:Activated Carbon (GAC); description:">
                            <div class="rounded-3 card-lift product-glightbox"
                               style="background-image: url(assets/images/products/Water_Treatment/Activated_Carbon.jpg);">
-                              <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Filtration Media</span>
+                              <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                            </div>
                            <div class="bg-primary mt-2 py-2 text-center">
                               <h4 class="h4 text-white">Activated Carbon (GAC)</h4>
@@ -336,7 +428,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Single Water Softeners; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Single_Water_Softeners.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Water Softeners</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Single Water Softeners</h4>
@@ -352,7 +444,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Duplex Water Softener; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Duplex_Water_Softener.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Water Softeners</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Duplex Water Softener</h4>
@@ -369,7 +461,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Salt (NaCl); description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Salt_NaCl.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Softening Media</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Salt (NaCl)</h4>
@@ -390,7 +482,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Resin; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Resin.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Softening Media</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Resin</h4>
@@ -415,7 +507,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Factory Package; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Factory_Package.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Deionizer</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Factory Package</h4>
@@ -438,7 +530,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Stainless Steel Body; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Stainless_Steel_Body.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Central Cartridge Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Stainless Steel Body</h4>
@@ -455,7 +547,7 @@
                         class="glightbox rounded-3" data-glightbox="title:PVC body ; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/PVC_body.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Central Cartridge Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">PVC body </h4>
@@ -472,7 +564,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Bag Filter; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Bag_Filter.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Central Cartridge Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Bag Filter</h4>
@@ -489,7 +581,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Countertop Filters; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Countertop_Filters.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic Cartridge Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Countertop Filters</h4>
@@ -506,7 +598,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Single Housing; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Single_Housing.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic Cartridge Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Single Housing</h4>
@@ -523,7 +615,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Double Housing; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Double_Housing.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic Cartridge Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Double Housing</h4>
@@ -539,7 +631,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Replacement Cartridge; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Replacement_Cartridge.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic Cartridge Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Replacement Cartridge</h4>
@@ -559,7 +651,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Stainless Steel Body ; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Stainless_Steel_Body_Basket_Strainer.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Basket Strainers</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Stainless Steel Body</h4>
@@ -580,7 +672,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Carbon Steel Body ; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Carbon_Steel_Body.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Basket Strainers</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Carbon Steel Body</h4>
@@ -601,7 +693,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Bronze Body ; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Bronze_Body.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Basket Strainers</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Bronze Body</h4>
@@ -623,7 +715,7 @@
                         class="glightbox rounded-3" data-glightbox="title:PVC Body; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/PVC_body.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Basket Strainers</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">PVC Body</h4>
@@ -636,7 +728,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Transparent Body ; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Transparent_Body.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Basket Strainers</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Transparent Body</h4>
@@ -649,7 +741,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Screen Meshes; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Screen_Meshes.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Basket Strainers</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Screen Meshes</h4>
@@ -662,7 +754,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Screen Filters; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Screen_Filters.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Screen Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Screen Filters</h4>
@@ -682,7 +774,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Separators; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Separators.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Separators</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Separators</h4>
@@ -707,7 +799,7 @@
                         data-glightbox="title:Skid Multi Disc Filters System ; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Skid_Multi_Disc_Filters_System.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Disc Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Skid Multi Disc Filters System </h4>
@@ -732,7 +824,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Single Housing Disc Filter; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Single_Housing_Disc_Filter.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Disc Filters</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Single Housing Disc Filter </h4>
@@ -746,7 +838,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Physical Water Conditioners; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Physical_Water_Conditioners.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Physical Water Conditioners</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Physical Water Conditioners</h4>
@@ -782,8 +874,8 @@
                         data-glightbox="title:Industrial RO – above 10,000 GPD; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Industrial_RO_above_10000_GPD.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Industrial RO – above 10,000
-                              GPD</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Industrial RO – above 10,000
+                              GPD</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Industrial RO – above 10,000 GPD</h4>
@@ -814,8 +906,8 @@
                         class="glightbox rounded-3" data-glightbox="title:RO 600 GPD; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/RO_600_GPD.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Commercial RO – 300 – 10,000
-                              GPD</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Commercial RO – 300 – 10,000
+                              GPD</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">RO 600 GPD</h4>
@@ -827,8 +919,8 @@
                         class="glightbox rounded-3" data-glightbox="title:RO 3000 GPD; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/RO_3000_GPD.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Commercial RO – 300 – 10,000
-                              GPD</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Commercial RO – 300 – 10,000
+                              GPD</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">RO 3000 GPD</h4>
@@ -840,8 +932,8 @@
                         class="glightbox rounded-3" data-glightbox="title:RO 6000 GPD; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/RO_6000_GPD.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Commercial RO – 300 – 10,000
-                              GPD</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Commercial RO – 300 – 10,000
+                              GPD</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">RO 6000 GPD</h4>
@@ -854,8 +946,8 @@
                         class="glightbox rounded-3" data-glightbox="title:Countertop RO; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Countertop_RO.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic RO Units – 50 and 100
-                              GP</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic RO Units – 50 and 100
+                              GP</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Countertop RO</h4>
@@ -867,8 +959,8 @@
                         class="glightbox rounded-3" data-glightbox="title:Under Sink RO; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Under_Sink_RO.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic RO Units – 50 and 100
-                              GP</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic RO Units – 50 and 100
+                              GP</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Under Sink RO</h4>
@@ -880,8 +972,8 @@
                         class="glightbox rounded-3" data-glightbox="title:Membranes; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Membranes.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic RO Units – 50 and 100
-                              GP</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Domestic RO Units – 50 and 100
+                              GP</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Membranes</h4>
@@ -894,8 +986,8 @@
                         class="glightbox rounded-3" data-glightbox="title:8000 BPH MACHINE; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/8000_BPH_MACHINE.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Mineral Water Bottling
-                              Machines</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Mineral Water Bottling
+                              Machines</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">8000 BPH MACHINE</h4>
@@ -920,8 +1012,8 @@
                         data-glightbox="title:Ultra Membranes (Gray Water Recycling); description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Ultra_Membranes.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Ultra Membranes (Gray Water
-                              Recycling)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Ultra Membranes (Gray Water
+                              Recycling)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Ultra Membranes (Gray Water Recycling)</h4>
@@ -950,8 +1042,8 @@
                         data-glightbox="title:UV (Ultraviolet Sterilization System); description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Ultraviolet_Sterilization_System.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
-                              System)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
+                              System)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Ultraviolet Sterilization System</h4>
@@ -975,8 +1067,8 @@
                         class="glightbox rounded-3" data-glightbox="title:UV w/ Cartridge Filters; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/UV_W_Cartridge_Filters.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
-                              System)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
+                              System)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">UV w/ Cartridge Filters</h4>
@@ -989,8 +1081,8 @@
                         class="glightbox rounded-3" data-glightbox="title:UV - Horizontal Type ; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/UV-_Horizontal_Type.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
-                              System)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
+                              System)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">UV - Horizontal Type </h4>
@@ -1002,8 +1094,8 @@
                         class="glightbox rounded-3" data-glightbox="title:UV - Vertical Type; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/UV_Vertical_Type.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
-                              System)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
+                              System)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">UV - Vertical Type</h4>
@@ -1015,8 +1107,8 @@
                         class="glightbox rounded-3" data-glightbox="title:UV – Flange – Multi Lamps; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/UV_Flange-_Multi_Lamps.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
-                              System)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
+                              System)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">UV – Flange – Multi Lamps</h4>
@@ -1029,8 +1121,8 @@
                         data-glightbox="title:UV Spares (Lamps–Sleeves– Adaptors); description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/UV_Spares_Lamps_Sleeves_Adaptors.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
-                              System)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">UV (Ultraviolet Sterilization
+                              System)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">(Lamps–Sleeves– Adaptors)</h4>
@@ -1043,7 +1135,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Ozone Generation Systems; description:">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Ozone_Generation_Systems.png);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Ozone Generation Systems</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Ozone Generation Systems</h4>
@@ -1067,7 +1159,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Chemical Dosing Pumps">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Chemical_Dosing_Pumps.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Chemical Dosing System</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Chemical Dosing Pumps</h4>
@@ -1091,7 +1183,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Chemical Dosing Controllers">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Chemical_Dosing_Controllers.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Chemical Dosing System</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Chemical Dosing Controllers</h4>
@@ -1115,7 +1207,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Factory Package – Panel Type Dosing System">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Factory_Package_Panel_Type_Dosing_System.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Chemical Dosing System</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Factory Package – Panel Type Dosing System</h4>
@@ -1137,7 +1229,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Dosing Tank/Manual & Automatic Mixers">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Manual_Automatic_Mixers.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Chemical Dosing System</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Dosing Tank/Manual & Automatic Mixers</h4>
@@ -1160,7 +1252,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Chemical Transfer Pumps">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Chemical_Transfer_Pumps.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Chemical Transfer Pumps</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Chemical Transfer Pumps</h4>
@@ -1173,8 +1265,8 @@
                         class="glightbox rounded-3" data-glightbox="title:Sodium Hypochlorite Generation Unit">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Sodium_Hypochlorite_Generation-Unit.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Onsite Hypochlorite Generation
-                              System</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Onsite Hypochlorite Generation
+                              System</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Sodium Hypochlorite Generation Unit </h4>
@@ -1196,8 +1288,8 @@
                         class="glightbox rounded-3" data-glightbox="title:Chlorine Dioxide Generation Unit">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Chlorine_Dioxide_Generation_Unit.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Chlorine Dioxide Generation
-                              System</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Chlorine Dioxide Generation
+                              System</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Chlorine Dioxide Generation Unit</h4>
@@ -1219,8 +1311,8 @@
                         class="glightbox rounded-3" data-glightbox="title:Water Testing (Laboratory Equipment)">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Reagents.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Water Testing (Laboratory
-                              Equipment)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Water Testing (Laboratory
+                              Equipment)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Water Testing (Laboratory Equipment)</h4>
@@ -1241,8 +1333,8 @@
                         class="glightbox rounded-3" data-glightbox="title:Lab & portable instruments">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Lab_portable_instruments.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Water Testing (Laboratory
-                              Equipment)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Water Testing (Laboratory
+                              Equipment)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Lab & portable instruments</h4>
@@ -1265,8 +1357,8 @@
                         class="glightbox rounded-3" data-glightbox="title:Reagents">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Reagents.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Water Testing (Laboratory
-                              Equipment)</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Water Testing (Laboratory
+                              Equipment)</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Reagents</h4>
@@ -1290,7 +1382,7 @@
                         class="glightbox rounded-3" data-glightbox="title:Chemical Groups/Applications for Water Treatment">
                         <div class="rounded-3 card-lift product-glightbox"
                            style="background-image: url(assets/images/products/Water_Treatment/Chemical_Groups_Applications_for_Water_Treatment.jpg);">
-                           <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Chemicals</span>
+                           <!-- <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">...content...</span> -->
                         </div>
                         <div class="bg-primary mt-2 py-2 text-center">
                            <h4 class="h4 text-white">Chemical Groups/Applications for Water Treatment</h4>
@@ -1319,15 +1411,14 @@
       <div class="container">
          <!-- Footer 4 column -->
          <div class="row">
-            <div class="col-xxl-5 col-lg-5 col-md-7">
+            <div class="col-xxl-5 col-lg-3 col-md-7">
                <div class="mb-7 mb-xl-0">
                   <div class="mb-4">
                      <a href="#">
                         <img width="100px" src="./assets/images/logo/logo.png" alt="logo" class="text-inverse" />
                      </a>
                   </div>
-                  <p class="mb-5">Build faster websites with Block multipurpose bootstrap 5 template. Duis imper diet
-                     mollis leo, quis ultrices erat ultrices simple dummy .</p>
+                  <p class="mb-5">Your Foundation for Quality and Reliability in Every Project.</p>
 
                   <!-- <form class="needs-validation" novalidate>
                         <h5 class="mb-3">Subscribe to our newsletter</h5>
@@ -1346,9 +1437,9 @@
                      </form> -->
                </div>
             </div>
-            <div class="offset-xxl-1 col-xxl-6 col-lg-6 offset-md-1 col-md-4">
+            <div class="offset-xxl-1 col-xxl-6 col-lg-9 col-md-5">
                <div class="row" id="ft-links">
-                  <div class="col-lg-8 col-12">
+                  <div class="col-lg-5 col-12">
                      <div class="position-relative">
                         <div class="mb-3 pb-2 d-flex justify-content-between border-bottom border-bottom-lg-0">
                            <h5>Our Products</h5>
@@ -1361,62 +1452,36 @@
                         <div class="collapse d-lg-block" id="collapseLanding" data-bs-parent="#ft-links">
                            <ul class="list-unstyled mb-0 py-3 py-lg-0">
                               <li class="mb-2">
-                                 <a href="index.html" class="text-decoration-none text-reset">Water Treatment</a>
+                                 <a href="water-treatment.html" class="text-decoration-none text-reset">Water Treatment</a>
                               </li>
                               <li class="mb-2">
-                                 <a href="#!" class="text-decoration-none text-reset">Water Transfer</a>
+                                 <a href="water-transfer.html" class="text-decoration-none text-reset">Water Transfer</a>
                               </li>
                               <li class="mb-2">
-                                 <a href="#" class="text-decoration-none text-reset">Sanitory & Building Materials
+                                 <a href="sanitary-building-materials.html" class="text-decoration-none text-reset">Sanitory &
+                                    Building Materials
                                  </a>
                               </li>
                               <li class="mb-2">
-                                 <a href="#" class="text-decoration-none text-reset">Water Leisure – Swimming Pools</a>
+                                 <a href="water-leisure-swimming-pools.html" class="text-decoration-none text-reset">Water
+                                    Leisure – Swimming Pools</a>
                               </li>
                               <li class="mb-2">
-                                 <a href="#" class="text-decoration-none text-reset">Water Leisure – Wellness</a>
+                                 <a href="water-leisure-wellness.html" class="text-decoration-none text-reset">Water Leisure
+                                    – Wellness</a>
                               </li>
                               <li class="mb-2">
-                                 <a href="#!" class="text-decoration-none text-reset">Water Leisure – Fountains</a>
+                                 <a href="water-leisure-water-parks.html" class="text-decoration-none text-reset">Water Leisure
+                                    – Parks</a>
+                              </li>
+                              <li class="mb-2">
+                                 <a href="water-leisure-fountains.html" class="text-decoration-none text-reset">Water Leisure – Fountains</a>
                               </li>
                            </ul>
                         </div>
                      </div>
                   </div>
-                  <!-- <div class="col-lg-4 col-12">
-                        <div class="mb-3 pb-2 d-flex justify-content-between border-bottom border-bottom-lg-0 position-relative">
-                           <h5>Accounts</h5>
-                           <a
-                              class="d-block d-lg-none stretched-link text-inherit"
-                              data-bs-toggle="collapse"
-                              href="#collapseAccounts"
-                              role="button"
-                              aria-expanded="false"
-                              aria-controls="collapseAccounts">
-                              <i class="bi bi-chevron-down"></i>
-                           </a>
-                        </div>
-                        <div class="collapse d-lg-block" id="collapseAccounts" data-bs-parent="#ft-links">
-                           <ul class="list-unstyled mb-0 py-3 py-lg-0">
-                              <li class="mb-2">
-                                 <a href="signup.html" class="text-decoration-none text-reset">Register</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="signin.html" class="text-decoration-none text-reset">Login</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="forget-password.html" class="text-decoration-none text-reset">Forgot Password</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="reset-password.html" class="text-decoration-none text-reset">Reset Password</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="#!" class="text-decoration-none text-reset">Profile</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </div> -->
-                  <div class="col-lg-4 col-12">
+                  <div class="col-lg-3 col-12">
                      <div
                         class="mb-3 pb-2 d-flex justify-content-between border-bottom border-bottom-lg-0 position-relative">
                         <h5>Resources</h5>
@@ -1429,14 +1494,14 @@
                      <div class="collapse d-lg-block" id="collapseResources" data-bs-parent="#ft-links">
                         <ul class="list-unstyled mb-0 py-3 py-lg-0">
                            <li class="mb-2">
-                              <a href="docs/index.html" class="text-decoration-none text-reset">Home</a>
+                              <a href="index.html" class="text-decoration-none text-reset">Home</a>
                            </li>
                            <li class="mb-2">
                               <a href="#!" class="text-decoration-none text-reset">About Us</a>
                            </li>
-                           <li class="mb-2">
-                              <a href="changelog.html" class="text-decoration-none text-reset">Services</a>
-                           </li>
+                           <!-- <li class="mb-2">
+                                 <a href="changelog.html" class="text-decoration-none text-reset">Services</a>
+                              </li> -->
                            <li class="mb-2">
                               <a href="#!" class="text-decoration-none text-reset">Products</a>
                            </li>
@@ -1444,6 +1509,28 @@
                               <a href="#!" class="text-decoration-none text-reset">Reach Us</a>
                            </li>
                         </ul>
+                     </div>
+                  </div>
+                  <div class="col-xxl-5 col-lg-4 col-md-7">                     
+                     <div class="mb-3 pb-2 d-flex justify-content-between border-bottom border-bottom-lg-0 position-relative">
+                        <h5>Our Office</h5>
+                        <a class="d-block d-lg-none stretched-link text-inherit" data-bs-toggle="collapse" href="#collapseResources" role="button" aria-expanded="false" aria-controls="collapseResources">
+                           <i class="bi bi-chevron-down"></i>
+                        </a>
+                     </div>
+                        <div class="d-flex mb-5">
+                           <div>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill text-primary" viewBox="0 0 16 16">
+                                 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"></path>
+                              </svg>
+                           </div>
+                           <div class="ms-2">
+                              <p class="mb-1">Quadra Plus Trading DWC-LLC</p>
+                                 <p class="mb-1">Dubai South, </p>
+                                 <p class="mb-1">United Arab Emirates</p>
+                                 <p>P.O. Box: 390667</p>
+                           </div>
+                        
                      </div>
                   </div>
                </div>
@@ -1463,52 +1550,22 @@
             </div>
             <div class="col-md-3">
                <div class="text-md-end d-flex align-items-center justify-content-md-end">
-                  <div class="dropdown">
-                     <button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button"
-                        aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
-                        <i class="bi theme-icon-active lh-1"></i>
-                        <span class="visually-hidden bs-theme-text">Toggle theme</span>
-                     </button>
-                     <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bs-theme-text">
-                        <li>
-                           <button type="button" class="dropdown-item d-flex align-items-center"
-                              data-bs-theme-value="light" aria-pressed="false">
-                              <i class="bi theme-icon bi-sun-fill"></i>
-                              <span class="ms-2">Light</span>
-                           </button>
-                        </li>
-                        <li>
-                           <button type="button" class="dropdown-item d-flex align-items-center"
-                              data-bs-theme-value="dark" aria-pressed="false">
-                              <i class="bi theme-icon bi-moon-stars-fill"></i>
-                              <span class="ms-2">Dark</span>
-                           </button>
-                        </li>
-                        <li>
-                           <button type="button" class="dropdown-item d-flex align-items-center active"
-                              data-bs-theme-value="auto" aria-pressed="true">
-                              <i class="bi theme-icon bi-circle-half"></i>
-                              <span class="ms-2">Auto</span>
-                           </button>
-                        </li>
-                     </ul>
-                  </div>
                   <div class="ms-3 d-flex gap-2">
-                     <a href="#!" class="text-reset btn btn-instagram btn-icon">
+                     <a href="https://www.instagram.com/" target="_blank" class="text-reset btn btn-instagram btn-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                            class="bi bi-instagram" viewBox="0 0 16 16">
                            <path
                               d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                         </svg>
                      </a>
-                     <a href="#!" class="text-reset btn btn-facebook btn-icon">
+                     <a href="https://www.facebook.com/" target="_blank" class="text-reset btn btn-facebook btn-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                            class="bi bi-facebook" viewBox="0 0 16 16">
                            <path
                               d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                         </svg>
                      </a>
-                     <a href="#!" class="text-reset btn btn-twitter btn-icon">
+                     <a href="https://x.com/" target="_blank" class="text-reset btn btn-twitter btn-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                            class="bi bi-twitter" viewBox="0 0 16 16">
                            <path
@@ -1520,24 +1577,6 @@
             </div>
          </div>
       </div>
-      <!-- <div class="col-lg-4 col-md-4 col-12">
-         <a href="./assets/images/products/Water_Treatment/Horizontal_Pressure_Vessel.jpg"
-            class="glightbox rounded-3"
-            data-glightbox="title:Horizontal Pressure Vessel; description: .glightbox-description">
-            <div class="rounded-3 card-lift product-glightbox"
-               style="background-image: url(assets/images/products/Water_Treatment/Horizontal_Pressure_Vessel.jpg);">
-               <span class="mt-3 mx-3 badge rounded-pill text-bg-warning">Horizontal Pressure
-                  Vessel</span>
-            </div>
-            <div class="bg-primary mt-2 py-2 text-center">
-               <h4 class="h4 text-white">Horizontal Pressure Vessel</h4>
-            </div>
-         </a>
-         <div class="glightbox-desc glightbox-description">
-            <p>Quadra Plus is designing and supplying pressure filtration systems for the industrial and
-               municipal market. Stand-alone and skid- mounted systems are supplied with:</p>
-         </div>
-      </div> -->
    </footer>
    <!-- <script>
          const products = [
